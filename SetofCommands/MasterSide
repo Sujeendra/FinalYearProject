@@ -1,0 +1,27 @@
+
+roscore
+
+
+RPG-SVO
+
+Localisation
+
+1. roslaunch gscam raspicam.launch
+2. rosrun camera_calibration cameracalibrator.py --size 8x6 --square 0.024 image:=/raspicam/image_raw
+3. ROS_NAMESPACE=raspicam rosrun image_proc image_proc 
+4. rosrun viso2_ros mono_odometer image:=/raspicam/image_rect
+5. rostopic echo /mono_odometer/pose
+
+ORB SLAM2
+
+1.rosrun ORB_SLAM2 Mono PATH_TO_VOCABULARY PATH_TO_SETTINGS_FILE
+2.rosrun image_view image_view image:=/camera/image_raw
+
+ObjectDetection Node
+
+1.rosrun image_view image_view image:=/objectdetection/view
+2.rosrun finalyearproject clienTest.py --prototxt MobileNetSSD_deploy.prototxt --model MobileNetSSD_deploy.caffemodel --montageW 2 --montageH 2
+
+
+
+

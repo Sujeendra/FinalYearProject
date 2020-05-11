@@ -1,0 +1,27 @@
+calibrate 
+
+1. donkeycar calibrate channel=0
+
+Transfer files between master and slave
+
+1. rsync -rv  --partial pi@<your_pi_ip_address>:~/mycar/data/  ~/mycar/data/
+
+Train Command in google colab
+
+1. python ~/mycar/manage.py train --tub <tub folder names comma separated> --model ./models/mypilot.h5
+
+Predict Throttle and steering(Autonomous mode)
+
+1. python ~/mycar/manage.py train --model ~/mycar/models/mypilot.h5
+
+Tub plot and Hitogram
+
+1. donkey tubplot <tub_path> [--model=<model_path>]
+2. donkey tubhist <tub_path> --rec=<"user/angle">
+
+CNN Activation view
+
+1. donkey cnnactivations [--tub=<data_path>] [--model=<path to model>]
+2. donkey cnnactivations --model models/model.h5 --image data/tub/1_cam-image_array_.jpg
+
+
