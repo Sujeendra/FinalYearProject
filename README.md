@@ -8,3 +8,9 @@ and PID controller. The controller being used is Raspberry Pi. The processing re
 
 
 ![Image of IndustryCar Prototype](https://github.com/Sujeendra/FinalYearProject/blob/master/images/IndustryRobot.jpeg)
+
+Result
+
+
+[![Watch the video](https://github.com/Sujeendra/FinalYearProject/blob/master/images/IndustryRobot.jpeg)](https://photos.app.goo.gl/6w6qjLFV2SY27TK2A)
+
