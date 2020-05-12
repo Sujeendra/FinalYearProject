@@ -12,5 +12,5 @@ and PID controller. The controller being used is Raspberry Pi. The processing re
 ### Result : Click on the Below Picture to see the video demo
 
 
-[![Watch the video](https://github.com/Sujeendra/FinalYearProject/blob/master/images/IndustryRobot.jpeg)](https://photos.app.goo.gl/6w6qjLFV2SY27TK2A)
+[![Watch the video](https://github.com/Sujeendra/FinalYearProject/blob/master/images/track.png)](https://photos.app.goo.gl/6w6qjLFV2SY27TK2A)
 
