@@ -7,7 +7,7 @@ Today, Industries or warehouses are equipped with Automatic Guided Vehicles (AGV
 and PID controller. The controller being used is Raspberry Pi. The processing related to the autonomous driving is done on the controller and the processing related to the image processing is done on the server. The server and the controller are connected using a common wireless network. By splitting the processing to the server and the controller, we are reducing the load on the controller as the processing power of a controller is limited. These ideas have been implemented and the results were observed using a prototype vehicle of 1/16 th scale. The vehicle proposed here aims to reduce the overall cost of an intelligent vehicle used in an industry environment and use the resources as efficiently as possible.
 
 
-![Image of IndustryCar Prototype](https://github.com/Sujeendra/FinalYearProject/blob/master/images/IndustryRobot.jpeg)
+![Image of IndustryCar Prototype](https://github.com/Sujeendra/FinalYearProject/blob/master/images/Cover.jpeg)
 
 ### Result : Click on the Below Picture to see the video demo
 
